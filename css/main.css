@@ -1,0 +1,263 @@
+header {
+  background-image: url(../img/dark_tint.png), url(../img/bokeh_car_lights_bg.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 42rem;
+}
+
+header .top-menu .brand a h1 {
+  margin-left: -24rem;
+  color: #ffff;
+}
+
+header .top-menu .menu-list ul {
+  margin-right: -7rem;
+}
+
+header .top-menu .menu-list ul li .btn-menu {
+  background-color: #ffff;
+  color: #444444;
+  border-radius: 3rem;
+  border: none;
+}
+
+header .top-menu .menu-list ul li a {
+  color: #FFFFFF80;
+  -webkit-transition: color .4s ease-in-out;
+  transition: color .4s ease-in-out;
+}
+
+header .top-menu .menu-list ul li a:hover {
+  color: #ffff;
+}
+
+header .content-header h2 {
+  color: #ffff;
+  font-size: 4rem;
+  margin-top: 12rem;
+}
+
+header .content-header p {
+  color: #ffff;
+  font-size: 1.5rem;
+}
+
+header .content-header button {
+  border-radius: 3rem;
+  color: #ffff;
+  padding: 1rem 2.4rem;
+  background-color: #3CADD4;
+  border: none;
+}
+
+header .content-header button:hover {
+  background-color: #3CADD4;
+  color: #ffff;
+  border: none;
+}
+
+main .section1 {
+  background-color: rgba(68, 68, 68, 0.052);
+}
+
+main .section1 .top-section1 h2 {
+  font-size: 2.8rem;
+  padding-top: 8rem;
+}
+
+main .section1 .top-section1 p {
+  color: #858585;
+  margin-bottom: 3rem;
+}
+
+main .section1 .boxes {
+  padding-bottom: 10rem;
+}
+
+main .section1 .boxes .box {
+  width: 25rem;
+  height: 24rem;
+  background-color: #ffff;
+  border: 1px solid rgba(144, 144, 144, 0.25);
+  border-radius: 4px;
+}
+
+main .section1 .boxes .box h4 {
+  color: #858585;
+}
+
+main .section1 .boxes .box p {
+  color: #444444;
+}
+
+main .section1 .boxes .box .i1 {
+  background-color: #3CADD4;
+  font-size: 4rem;
+  border-radius: 5rem;
+  padding: 2rem;
+}
+
+main .section1 .boxes .box .i2 {
+  background-color: #ADD43C;
+  font-size: 4rem;
+  border-radius: 5rem;
+  padding: 2rem;
+}
+
+main .section1 .boxes .box .i3 {
+  background-color: #D43C61;
+  font-size: 4rem;
+  border-radius: 5rem;
+  padding: 2rem;
+}
+
+main hr {
+  height: 2px;
+  background-color: #696969d0;
+}
+
+main .section2 .top-section2 h2 {
+  font-size: 2.8rem;
+  padding-top: 4rem;
+}
+
+main .section2 .top-section2 p {
+  color: #858585;
+  margin-bottom: 3rem;
+}
+
+main .section2 .user {
+  margin: 5rem 0;
+}
+
+main .section2 .user .text-profile h4 {
+  font-size: 1rem;
+}
+
+main .section2 .foot-section2 p {
+  margin: 0 14rem;
+}
+
+main .section2 .hr2 {
+  width: 85rem;
+  margin-left: 5rem;
+}
+
+main .section2 button {
+  border-radius: 3rem;
+  color: #ffff;
+  padding: 1rem 2.4rem;
+  background-color: #3CADD4;
+  border: none;
+}
+
+main .section2 button:hover {
+  background-color: #3CADD4;
+  color: #ffff;
+  border: none;
+}
+
+main .section3 {
+  background-color: #3CADD4;
+}
+
+main .section3 h2 {
+  font-size: 2.8rem;
+  padding-top: 4rem;
+  color: #ffff;
+}
+
+main .section3 p {
+  color: #ffff;
+  margin-bottom: 3rem;
+}
+
+main .section3 .form button {
+  margin-left: 18rem;
+  padding: 1rem;
+  background-color: #383B43;
+  color: #ffff;
+  width: 13rem;
+  border-radius: 2rem;
+}
+
+main .section3 .form textarea {
+  resize: none;
+  border-radius: 6px;
+  border: none;
+}
+
+main .section3 .form textarea::-webkit-input-placeholder {
+  padding: 1rem;
+}
+
+main .section3 .form textarea:-ms-input-placeholder {
+  padding: 1rem;
+}
+
+main .section3 .form textarea::-ms-input-placeholder {
+  padding: 1rem;
+}
+
+main .section3 .form textarea::placeholder {
+  padding: 1rem;
+}
+
+main .section3 .form input {
+  width: 25rem;
+  height: 3rem;
+  border-radius: 8px;
+  border: none;
+}
+
+main .section3 .form input::-webkit-input-placeholder {
+  padding: 1rem;
+}
+
+main .section3 .form input:-ms-input-placeholder {
+  padding: 1rem;
+}
+
+main .section3 .form input::-ms-input-placeholder {
+  padding: 1rem;
+}
+
+main .section3 .form input::placeholder {
+  padding: 1rem;
+}
+
+footer {
+  background-color: #383B43;
+  height: 13rem;
+}
+
+footer .copyright {
+  padding: 5rem 3rem;
+  color: #7b7b7b;
+}
+
+footer .copyright a {
+  color: #7b7b7b;
+}
+
+@font-face {
+  font-family: "Raleway";
+  src: url(../font/Raleway/Raleway-Italic-VariableFont_wght.ttf) format("ttf");
+}
+
+* {
+  margin: auto;
+  font-family: "Raleway", Helvetica, sans-serif;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+body {
+  overflow-x: hidden;
+}
+/*# sourceMappingURL=main.css.map */

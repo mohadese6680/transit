@@ -1,0 +1,226 @@
+// *********************************************header******************************************
+header {
+    background-image: url(../img/dark_tint.png), url(../img/bokeh_car_lights_bg.jpg);
+    background-size: cover;
+    background-position: center center;
+    height: 42rem;
+
+    // **********************************top menu**************************************
+    .top-menu {
+        .brand {
+            a h1 {
+                margin-left: -24rem;
+                color: #ffff;
+            }
+        }
+
+        .menu-list {
+            ul {
+                margin-right: -7rem;
+
+                li {
+                    .btn-menu {
+                        background-color: #ffff;
+                        color: #444444;
+                        border-radius: 3rem;
+                        border: none;
+                    }
+
+                    a {
+                        color: #FFFFFF80;
+                        transition: color .4s ease-in-out;
+
+                        &:hover {
+                            color: #ffff;
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+
+    // *************************************content header******************************
+    .content-header {
+        h2 {
+            color: #ffff;
+            font-size: 4rem;
+            margin-top: 12rem;
+        }
+
+        p {
+            color: #ffff;
+            font-size: 1.5rem;
+        }
+
+        button {
+            border-radius: 3rem;
+            color: #ffff;
+            padding: 1rem 2.4rem;
+            background-color: #3CADD4;
+            border: none;
+            &:hover{
+                background-color: #3CADD4;
+                color: #ffff;
+                border: none;
+            }
+        }
+    }
+
+
+}
+// *********************************************main******************************************
+main{
+    // *********************************************section-1******************************************
+    .section1{
+        background-color: rgba(68, 68, 68, 0.052);
+        .top-section1{
+            
+            h2{
+                font-size: 2.8rem;
+                padding-top: 8rem;
+            }
+            p{
+                color: #858585;
+                margin-bottom: 3rem;
+            }
+        }
+        .boxes{
+            padding-bottom: 10rem;
+            .box{
+                width: 25rem;
+                height: 24rem;
+                background-color: #ffff;
+                border: 1px solid rgba(144, 144, 144, 0.25);
+                border-radius: 4px;
+                h4{
+                    color: #858585;
+                }
+                p{
+                    color: #444444;
+                }
+                .i1{
+                    background-color: #3CADD4;
+                    font-size: 4rem;
+                    border-radius: 5rem;
+                    padding: 2rem;
+                }
+                .i2{
+                    background-color: #ADD43C;
+                    font-size: 4rem;
+                    border-radius: 5rem;
+                    padding: 2rem;
+                }
+                .i3{
+                    background-color: #D43C61;
+                    font-size: 4rem;
+                    border-radius: 5rem;
+                    padding: 2rem;
+                }
+            }
+        }
+    }
+
+    hr{
+        height: 2px;
+        background-color: #696969d0;
+    }
+    // *********************************************section2******************************************
+    .section2{
+        .top-section2{
+            h2{
+                font-size: 2.8rem;
+                padding-top: 4rem;
+            }
+            p{
+                color: #858585;
+                margin-bottom: 3rem;
+            }
+        }
+        .user{
+            margin: 5rem 0;
+            .text-profile{
+                h4{
+                    font-size: 1rem;
+                }
+            }
+        }
+        .foot-section2{
+            p{
+                margin: 0 14rem;
+            }
+        }
+        .hr2{
+            width: 85rem;
+            margin-left: 5rem;
+        }
+        button {
+            border-radius: 3rem;
+            color: #ffff;
+            padding: 1rem 2.4rem;
+            background-color: #3CADD4;
+            border: none;
+            // width: 16rem;
+            &:hover{
+                background-color: #3CADD4;
+                color: #ffff;
+                border: none;
+            }
+        }
+    }
+    // *********************************************section3******************************************
+
+    .section3{
+        background-color: #3CADD4;
+        h2{
+            font-size: 2.8rem;
+            padding-top: 4rem;
+            color: #ffff;
+        }
+        p{
+            color: #ffff;
+            margin-bottom: 3rem;
+        }
+        .form{
+            button{
+                margin-left: 18rem;
+                padding: 1rem;
+                background-color: #383B43;
+                color: #ffff;
+                width: 13rem;
+                border-radius: 2rem;
+            }
+            textarea{
+                resize: none;
+                // width: 32rem;
+                border-radius: 6px;
+                border: none;
+                &::placeholder{
+                    padding: 1rem;
+                }
+            }
+            input{
+                width: 25rem;
+                height: 3rem;
+                border-radius: 8px;
+                border: none;
+                &::placeholder{
+                    padding: 1rem;
+                }
+            }
+        }
+
+    }
+
+}
+footer{
+    background-color: #383B43;
+    height: 13rem;
+    .copyright{
+        padding: 5rem 3rem;
+        color: #7b7b7b;
+        a{
+            color: #7b7b7b; 
+        }
+    }
+}
